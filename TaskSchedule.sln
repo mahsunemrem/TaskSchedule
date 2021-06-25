@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{358DB5FF-6993-40E4-9804-66FACCAB7483}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskSchedule.Presentation", "TaskSchedule.Presentation\TaskSchedule.Presentation.csproj", "{0ECAC639-2918-47DF-8FC3-2339FA581B69}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ECAC639-2918-47DF-8FC3-2339FA581B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ECAC639-2918-47DF-8FC3-2339FA581B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ECAC639-2918-47DF-8FC3-2339FA581B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ECAC639-2918-47DF-8FC3-2339FA581B69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0ECAC639-2918-47DF-8FC3-2339FA581B69} = {358DB5FF-6993-40E4-9804-66FACCAB7483}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DECC8697-1771-4066-93B6-2EFAF93CD3C9}
